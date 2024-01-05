@@ -52,7 +52,7 @@ document.getElementById("play-btn").addEventListener("click", async function () 
         method: "POST",
       })).json();
 
-      if (bet.value == "" || bet.value == 0 || parseInt(bet.value) > parseInt(promise.Balance)) {
+      if (bet.value == "" || bet.value == 0 || bet.value < 0 || parseInt(bet.value) > parseInt(promise.Balance)) {
         alert("Wrong bet!");
         return;
       }

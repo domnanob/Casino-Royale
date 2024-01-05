@@ -90,7 +90,7 @@ function end_game($win, $price = 0)
 {
     if ($win) {
         include_once "./setBalance.php";
-        setBalance($price);
+        setBalance($price*2);
     } 
 }
 ?>
