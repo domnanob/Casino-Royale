@@ -104,6 +104,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       <p class="text-center">Not a member? <a href="./registration.php">Sign up now</a> <svg class="icon">
           <use xlink:href="#icon-arrow-right"></use>
         </svg></p>
+      <p class="text-center">Interested? Check the source in <a href="https://github.com/domnanob/casino-royale.git">GitHub!</a></p>
 
     </div>
 
