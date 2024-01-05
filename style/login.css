@@ -162,6 +162,9 @@ input[type="submit"] {
     padding-inline: 1.25rem;
     margin-bottom: 3px;
 }
+.login .pfp-label {
+    background-color: #1F222B !important;
+}
 
 .login input[type="password"],
 .login input[type="email"],

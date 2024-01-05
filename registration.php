@@ -117,19 +117,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             placeholder="Confirm Password" required>
         </div>
         <div>
-          <label>
+          <label class="pfp-label">
             <input type="radio" name="pfp" value="cat" checked>
             <img src="./assets/img/profiles/cat.png" alt="Pfp Option 1">
           </label>
-          <label>
+          <label class="pfp-label">
             <input type="radio" name="pfp" value="panda">
             <img src="./assets/img/profiles/panda.png" alt="Pfp Option 2">
           </label>
-          <label>
+          <label class="pfp-label">
             <input type="radio" name="pfp" value="siba">
             <img src="./assets/img/profiles/siba.png" alt="Pfp Option 3">
           </label>
-          <label>
+          <label class="pfp-label">
             <input type="radio" name="pfp" value="sloth">
             <img src="./assets/img/profiles/sloth.png" alt="Pfp Option 4">
           </label>
